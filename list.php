@@ -10,7 +10,7 @@ if($_SESSION['username'] == 'username') {
 
  //vv output data of each row
 while($row = mysqli_fetch_assoc($result)) {
->>>>>>> feature/listAndSave
+
  echo $row["id"] . " ";
  echo $row["name"] . " ";
  echo $row["street_address"] . " ";
