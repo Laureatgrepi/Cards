@@ -1,4 +1,4 @@
-
+ 
 <?php
 session_start();
 if($_SESSION['username'] == 'username') {
@@ -47,7 +47,7 @@ while($row = mysqli_fetch_assoc($result)) {
  print("<br>");
  print("");
  print("<input type=\"submit\" name=\"submit\" value=\"Save\" >");
- print("</form>");
+ print( " </form>");
  print("</html>");
  mysqli_close($conn);
 } else {
